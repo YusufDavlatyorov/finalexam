@@ -10,32 +10,52 @@
 
     <header class="max-w-[1200px] m-auto">
         <nav class="flex justify-evenly items-center mt-[20px] gap-[20px] font-[600]">
-            <img src="./logo.svg" alt="">
-            <div>
+            <img class="lg:w-[200px] lg:h-[70px]" src="./logo.svg" alt="">
+            <div class="lg:hidden items-center flex">
+                <img src="./call.png" alt="">
+                <div class="flex gap-[20px] items-center">
+                 <p>Меню</p>
+                 <img src="./burger.png" alt="">   
+                </div>
+            </div>
+            <div class="hidden lg:block">
                 <h1 class="text-[#00578A] text-[18px]">8 (495) 926-06-03</h1>
                 <div class="flex gap-[20px] items-center text-[#4F4F4F] mt-[5px]">
                     <img class="w-[20px] h-[20px]" src="./social.png" alt="">
                     <p>Whatsapp</p>
                 </div>
             </div>
-            <div class="text-[#4F4F4F]">
+            <div class="text-[#4F4F4F] hidden lg:block">
                 <p>info@gormedcentre.ru</p>
                 <p class="mt-[5px]">Заказать звонок</p>
             </div>
-            <div class="text-[#4F4F4F]">
+            <div class="text-[#4F4F4F] lg:block hidden">
                 <p>г. Мытищи,</p>
                 <p class="mt-[5px]">ул.Рождественская, д.7</p>
             </div>
-            <div class="text-[#4F4F4F]">
+            <div class="text-[#4F4F4F] hidden lg:block">
                 <p>Ежедневно</p>
                 <p class="mt-[5px]">с 9.00 до 21.00</p>
             </div>
-            <div class="flex gap-[20px] items-center">
+            <div class="lg:flex gap-[20px] items-center hidden ">
                 <img src="./search.png" alt="">
                 <button class="text-[#00578A] font-[700] w-[190px] h-[40px] bg-[#E3EFF5] rounded-[5px]">Личный кабинет</button>
             </div>
         </nav>
     </header>
+
+    <main class="w-[100%] lg:h-[680px] h-[1350px] mt-[50px] pt-[30px] pl-[30px]" style="background-image: url(./bg.png); background-repeat: no-repeat; background-size: cover;">
+        <section class="lg:flex justify-evenly max-w-[1200px] m-auto">
+            <div class="mt-[100px]">
+                <h1 class="text-[60px] font-[700] text-[white]">Позаботьтесь <br>о здоровье ребенка</h1>
+                <p class="text-[20px] font-[400] mt-[20px] text-[white]">Осуществляем комплексное медицинское обслуживание <br>населения: консультации и амбулаторное лечение у <br>специалистов всех направлений, медицинские <br>обследования и диагностические процедуры.</p>
+                <button class="w-[220px] h-[60px] bg-[#00C6BF] text-[white] text-[20px] font-[600] rounded-[5px] mt-[30px]">Записаться</button>
+            </div>
+            <div class="mt-[30px] lg:mt-[0px]">
+                <img src="./девушка с ребенком 1.png" alt="">
+            </div>
+        </section>
+    </main>
     
 </body>
 </html>
